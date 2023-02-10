@@ -1,5 +1,5 @@
 {
-    "name": "legacy-laravel",
+    "name": "legacy-laravel/",
     "description": "Runs legacy codebase inside a Laravel Project",
     "type": "project",
     "require": {
