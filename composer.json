@@ -2,9 +2,6 @@
     "name": "pieter365/legacy-laravel",
     "description": "Runs legacy codebase inside a Laravel Project",
     "type": "project",
-    "require": {
-        "laravel/framework": "^9.0"
-    },
     "license": "MIT",
     "authors": [
         {
