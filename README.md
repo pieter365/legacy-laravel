@@ -24,3 +24,13 @@ php artisan vendor:publish
 ```
 
 4 - Put your legacy project inside `./legacy` folder.
+
+## Details
+
+Add the following to your routes/web.php to make sure that the routing works correct for you legacy setup
+
+```php
+Route::middleware('legacy')
+    ->any('/{path}', ['as' => 'legacy', 'uses' => '\Legacy\Controller@index'])
+    ->where('path', '.*');
+```
