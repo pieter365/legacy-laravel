@@ -16,7 +16,7 @@ class ServiceProvider extends LaravelServiceProvider
             $this->config => config_path('legacy.php'),
         ]);
 
-        $this->loadRoutesFrom(__DIR__ . '/../../routes.php');
+        $this->loadRoutesFrom(app_path('../routes/web.php'));
     }
 
     public function register() {
