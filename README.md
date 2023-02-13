@@ -1,5 +1,5 @@
 # legacy-laravel
-Runs legacy code inside a Laravel project
+Runs legacy code inside a Laravel project for example Codeigniter
 
 ## Why?
 To assist to run a legacy project inside laraval
